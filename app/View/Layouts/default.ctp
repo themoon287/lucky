@@ -126,6 +126,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				font-weight:bold;
 				margin-top: 30px;
 				margin-bottom: 30px;
+				color: antiquewhite;
 			}
 			body {
    				background-image: url("/img/kurihara1.jpg"); 

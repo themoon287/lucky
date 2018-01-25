@@ -1,6 +1,6 @@
 <div style="height: 70px;">
 <button type="button" onclick="window.location.href='/home/reset';" class="btn  btn-lg btn-reset">Reset</button>
-<button type="button" class="btn  btn-lg btn-result" data-toggle="modal" data-target="#myModal" <?php echo (empty($prize1) && empty($prize2) && empty($prize3)) ? "disabled" : "" ;?>>Kết quả</button>
+<button type="button" class="btn  btn-lg btn-result" data-toggle="modal" data-target="#myModal" <?php echo (empty($prize1) && empty($prize2) && empty($prize3) && empty($prize4) && empty($prize5) && empty($prize6)) ? "disabled" : "" ;?>>Kết quả</button>
 </div>
 <!-- <h1 class="tit">Cơ cấu giải thưởng</h1> -->
 <div class="list-group">
