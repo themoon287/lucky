@@ -244,7 +244,7 @@ ul {
 	    <div class="col-xs-4"></div>
 	</div>
 <div class="text-center"></div>
-<p class="text prize"></p>
+<p class="text prize">Ai?</p>
 
     <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -258,7 +258,7 @@ ul {
   
     <script type="text/javascript" charset="utf-8">
     var pathname = window.location.protocol + "//" + window.location.host;
-    $(".prize").hide();
+    $(".prize").css('visibility','hidden');
         
         // fancy example
         $('.fancy .slot-main').jSlots({
@@ -271,14 +271,14 @@ ul {
             onStart : function() {
                 $('.slot').removeClass('winner');
                 $(".prize").text();
-                $(".prize").hide();
+                $(".prize").css('visibility','hidden');
                 $(".slot-sub").css('z-index','0');
             },
             onEnd : function(finalNumbers) {
 //             	console.log(finalNumbers);
             	console.log(jsVars.list[finalNumbers-1]);
             	$(".prize").text(jsVars.list[finalNumbers-1].name);
-            	$(".prize").show();
+            	$(".prize").css('visibility','visible');
              	$('ul.slot').addClass('winner');
 
 				//ajax

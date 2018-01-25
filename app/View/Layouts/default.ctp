@@ -129,8 +129,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				color: antiquewhite;
 			}
 			body {
-   				background-image: url("/img/kurihara1.jpg"); 
-   				background-repeat:no-repeat;
+   				background-image: url("/img/kurihara1.jpg"),url("/img/kurihara2.jpg"); 
+    			background-repeat: no-repeat, repeat; 
 
    				background-size:cover;
 /*    				background-position: center center; */
