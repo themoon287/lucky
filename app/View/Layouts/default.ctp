@@ -80,7 +80,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				text-align: center;
 				margin-bottom: 50px;
 				font-size : 30pt;
-				color: cyan;
+				color: blue;
 			}
 			h2.tit {
 				margin-top: 50px;
