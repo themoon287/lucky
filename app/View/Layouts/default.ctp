@@ -122,11 +122,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			}
 			.text {
 				text-align:center;
-				font-size: 20pt;
+				font-size: 40pt;
 				font-weight:bold;
 				margin-top: 30px;
 				margin-bottom: 30px;
-				color: antiquewhite;
+				color: red;
 			}
 			body {
    				background-image: url("/img/background2019.jpg"), url("/img/background_2.jpg");
