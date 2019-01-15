@@ -70,7 +70,7 @@ class InsertStaffShell extends AppShell {
 
                     $collection->insert( $arr );
                 } catch (Exception $e) {
-                    $this->out("<error>Error:</error> Failed to insert data");
+                    $this->out("<error>Error:</error> Failed to insert dataaa");
                     return;
                 }
             }
