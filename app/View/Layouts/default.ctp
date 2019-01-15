@@ -132,7 +132,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
    				background-image: url("/img/background2019.jpg"), url("/img/background_2.jpg");
     			background-repeat: no-repeat, repeat;
 
-   				background-size:cover;
+   				background-size:contain;
 /*    				background-position: center center; */
 /* 			background-attachment: fixed; */
 			width: 100%;
