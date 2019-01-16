@@ -150,7 +150,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			
 		</div>
 		<div id="content">
-			<audio controls autoplay style="display: none;">
+			<audio controls loop autoplay style="display: none;">
 <!-- 			  <source src="horse.ogg" type="audio/ogg"> -->
 			  <source src="/img/Melodia-dla-Zuzi-Nhac-xo-so-Marek-i-Wacek.mp3"  type="audio/mpeg">
 			</audio>
