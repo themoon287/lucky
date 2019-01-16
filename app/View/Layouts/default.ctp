@@ -129,29 +129,43 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				color: red;
 			}
 			body {
-   				background-image: url("/img/background2019.jpg"), url("/img/background_2.jpg");
-    			background-repeat: no-repeat, repeat;
-
-   				background-size:contain;
-/*    				background-position: center center; */
-/* 			background-attachment: fixed; */
-			width: 100%;
-    height: 100%;
+   				background-image: url("/img/ground2.jpg");
+    			background-repeat: repeat;
+			    width: 100%;
+                height: 100%;
 			}
 			#content {
 				margin-top: 350px;
 				margin-left: 200px;
 			}
+
+			.ground_top {
+			    background-image: url("/img/ground_top.png");
+                    width: 100%;
+                    height: 38px;
+			}
+
+			.logo {
+			    display: block;
+                margin: auto;
+                width: 35%;
+                margin-top: 65px;
+			}
+
+			.img_footer {
+			    width: 30%;
+			}
+
 		</style>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
-			
+			<div class="ground_top"></div>
+			<img src="/img/logo.png" class="logo">
 		</div>
-		<div id="content">
+		<div id="main_content">
 			<audio controls loop autoplay style="display: none;">
-<!-- 			  <source src="horse.ogg" type="audio/ogg"> -->
 			  <source src="/img/Melodia-dla-Zuzi-Nhac-xo-so-Marek-i-Wacek.mp3"  type="audio/mpeg">
 			</audio>
 
@@ -160,7 +174,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-			
+			<img src="/img/tet.png" class="img_footer">
 		</div>
 	</div>
 </body>
